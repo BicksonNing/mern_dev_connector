@@ -1,0 +1,6 @@
+{
+    "mongoURI": "mongodb+srv://ning:ning@cluster0.zdskr.mongodb.net/devConnector2?retryWrites=true&w=majority",
+    "jwtSecret": "jghd8gdf32g1a84gfa3sd1g9a8s4rt3as1g32d1fg8ert4a3213s2x1cv3c21n3gh21jty87ui9s87fg4fd313ea1rtyer7y987dfg1asdgf",
+    "githubClientID": "fe644624fedc9d77308c",
+    "githubSecretKey": "90feb6bf555cda31c2f6491fffd516d5e90a8b09"
+}
