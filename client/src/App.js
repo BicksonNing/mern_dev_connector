@@ -1,6 +1,11 @@
 import './App.css';
 import React, { Fragment, useEffect } from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from 'react-router-dom';
 
 import Navbar from './components/layout/Navbar';
 import Landing from './components/layout/Landing';
@@ -16,6 +21,7 @@ import AddEducation from './components/profile-forms/AddEducation';
 import Profiles from './components/profiles/Profiles';
 import Posts from './components/posts/Posts';
 import Post from './components/post/Post';
+import NotFound from './components/layout/NotFound';
 
 // Redux
 import { Provider } from 'react-redux';
